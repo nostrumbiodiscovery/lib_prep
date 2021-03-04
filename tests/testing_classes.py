@@ -66,7 +66,7 @@ class DetectorTest:
                   'H11', 'H12', 'H13']
 
     def test_tree(self):
-        atoms_under_tree = tree.main(pdb_complex=self.PDB_IN, bond_to_descend=self.BOND, chain_ligand=self.CHAIN)
+        atoms_under_tree = tree.main(pdb_complex=self.PDB_IN, bond_to_descend=self.BOND, chain=self.CHAIN)
         assert atoms_under_tree == self.RESULT_TEST
 
 

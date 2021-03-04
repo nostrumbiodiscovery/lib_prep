@@ -17,15 +17,16 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.5
     - numpy
 
   run:
     # Base dependencies
-    - python
+    - python >=3.5
     - numpy
-    - prody
+    - prody >=1.10.10
     - rdkit
+    - pytest
 
 test:
   imports:
