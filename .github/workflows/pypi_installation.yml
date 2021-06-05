@@ -19,11 +19,11 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install numpy cython
-    - name: Install via Pypi
+    - name: Install via setup.py
       run: |
         python setup.py install
     - name: Test import 
       run: |
           mkdir test_pypi
           cd test_pypi
-          python -m lib_prep.convert_sdfs2pdb -h
+          python -m lib_prep.main
