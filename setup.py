@@ -8,7 +8,7 @@ CURR_PATH = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(CURR_PATH, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 setup(
-    name="LibPrep",
+    name="lib_prep",
     version="1.1.1",
     description='Python package to analyse and prepare libraries of chemical compounds for molecular simulations.',
     long_description=long_description,
