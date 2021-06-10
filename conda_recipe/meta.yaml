@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python
     - numpy
 
   run:
     # Base dependencies
-    - python >=3.5
+    - python
     - numpy
     - prody >=1.10.10
     - rdkit
